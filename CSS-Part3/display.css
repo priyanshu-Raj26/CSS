@@ -1,0 +1,59 @@
+/* /* h2 {
+    display: inline;
+    background-color: pink;
+}
+
+span {
+    display: block;
+    background-color: green;
+} */
+
+/* span {
+    /* background-color: pink; */
+    /* border: 2px solid black;
+    height: 100px;
+    width:  200px;
+    padding: 50px;
+    margin: 20px;  only in left and right */
+/* }  */
+
+/* div {
+    border: 2px solid black;
+    height: 100px;
+    width:  200px;
+    padding: 50px;
+    margin: 20px;
+} */ 
+
+div {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: #03A9F4;
+    margin: 5px;
+    display: inline-block;
+}
+
+#third {
+    display: none;
+}
+
+h1 {
+    border: 2px solid black;
+    width: 33.33%;    /*relative to parents*/
+}
+
+ 
+#outer {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    margin: 50px;
+}
+
+#inner {
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    margin-left: 10%;      /*relative to parents*/
+}
