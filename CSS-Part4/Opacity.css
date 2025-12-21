@@ -1,0 +1,22 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: #4dff00ff;  /*Alpha channel*/
+}
+
+#Opacity {
+    background-color: #ffa511;    /*Opacity*/
+    opacity: 0.5;
+}
+
+#transition {
+    height: 200px;
+    width: 200px;
+    background-color: #4dff00ff;
+    transition-duration: 1s;
+}
+
+#transition:hover {
+    background-color: black;
+    border-radius: 50%;
+}
