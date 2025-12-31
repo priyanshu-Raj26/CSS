@@ -1,0 +1,60 @@
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    /* animation-name: widthAnimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal; */
+
+    animation: colorAnimate 3s ease-in 0s infinite normal;
+    /*shortHand*/
+}
+
+@keyframes colorAnimate {
+    0% {
+        background-color: red;
+    }
+    50% {
+        background-color: green;
+    }
+    100% {
+        background-color: blue;
+    }
+}
+
+
+/* @keyframes widthAnimate {
+    form {
+        width: 10px;
+        background-color: pink;
+    }
+
+    to {
+        width: 400px;
+        background-color: aqua;
+        border-radius: 15px;
+    }
+} */
+
+/* 
+@keyframes fontAnimation {
+    form {
+        font-size: 20px;
+    }
+    to {
+        font-size: 40px;
+    }
+}
+
+@keyframes colorAnimate {
+    form {
+        background-color: pink;
+    }
+    to {
+        background-color: aqua;
+    }
+} */
